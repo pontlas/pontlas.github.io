@@ -61183,7 +61183,7 @@ q=B.d.fP((s-10)/7)
 A.aN(a,!1,t.Y).a=q
 A.d9("Subblock: "+A.f(q))
 this.al(new A.VJ(this,r,q))},
-N(a){var s=this,r=null,q=s.cx,p=s.CW,o=A.bh(0,0,1),n=A.agN(B.eo,new A.iM("/backgrounds/"+B.mw[A.aN(a,!0,t.Y).x])),m=A.Rf(B.eH,5),l=s.a_6()
+N(a){var s=this,r=null,q=s.cx,p=s.CW,o=A.bh(0,0,1),n=A.agN(B.eo,new A.iM("assets/backgrounds/"+B.mw[A.aN(a,!0,t.Y).x])),m=A.Rf(B.eH,5),l=s.a_6()
 return A.W7(r,new A.AI(0.5,new A.dg(new A.b_(0,0,q,p),new A.rX(l,new A.dG(r,n,m,r,r,r,B.a5),r,B.xR,o,r,s.d),r),r),B.aR,!1,r,r,r,r,r,new A.VK(s),r,r,r,r,new A.VL(),r,r,r,r,r,r)}}
 A.VX.prototype={
 $1(a){var s=this.a,r=s.c
@@ -61352,7 +61352,7 @@ $1(a){return new A.iW(A.a([],t.s),A.a([],t.Wb),new A.AT(B.vX,B.vY,B.kN,B.kN,A.ao
 $S:380}
 A.EN.prototype={
 N(a){var s
-for(s=0;s<2;++s)A.al3(new A.iM("/backgrounds/"+B.mw[s]),a)
+for(s=0;s<2;++s)A.al3(new A.iM("assets/backgrounds/"+B.mw[s]),a)
 for(s=0;s<8;++s)A.al3(new A.iM(B.mx[s]),a)
 return B.FX}}
 A.uW.prototype={
@@ -64951,7 +64951,7 @@ B.lM=new A.k9(2,"initializedServices")
 B.AC=new A.k9(3,"initializingUi")
 B.AD=new A.k9(4,"initialized")
 B.AE=new A.Cf(1,"traversalOrder")
-B.wy=new A.iM("/backgrounds/scorebg.png")
+B.wy=new A.iM("assets/backgrounds/scorebg.png")
 B.bB=new A.mq(3,"noRepeat")
 B.eU=new A.md(1,"low")
 B.AF=new A.tN(B.wy,B.eo)
